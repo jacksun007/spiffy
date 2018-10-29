@@ -1,0 +1,6 @@
+../ext3/ext3_blkgrp.h
+../ext3/ext3_indirect.h
+../ext3/ext3_dirent.h
+../ext3/ext3_super.h
+../ext3/ext3_inode.h
+../ext3/ext3_journal.h

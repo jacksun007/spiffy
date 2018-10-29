@@ -1,0 +1,46 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Cygwin Debug File
+*.stackdump
+
+# Python Object files
+*.pyc
+
+# Build folder
+build
+
+# PLY temporary files
+parsetab.py
+parser.out
+
+# xml dump output
+*.xml
+
+# gedit temporary files
+*~
+
+# CLION
+
+cmake-build-debug/
+.idea/
+CMakeLists.txt

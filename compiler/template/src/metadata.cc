@@ -1,0 +1,18 @@
+@[ if obj.is_vector_type() ]
+    @[ include "vector.cc" with context ]
+@[ else ]
+    @[ if obj.is_extent() ]
+#error "Extent structures are currently not supported"
+    @[ else ]
+    @[ include "entity/ctor.cc" with context ]
+    @[ endif ]
+    @[ include "entity/parse.cc" with context ]
+    @[ include "entity/compare.cc" with context ]
+    @[ include "entity/accept.cc" with context ]      
+    @[ include "entity/getfield.cc" with context ]
+    @[ for field in obj.fields ]
+        @[ include "field.cc" with context ]
+    @[ endfor ]
+@[ endif ]
+@[ include "entity/factory.cc" with context ]
+

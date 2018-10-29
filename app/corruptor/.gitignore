@@ -1,0 +1,6 @@
+*.img
+*.txt
+depend.mk
+cr*
+!*.cpp
+

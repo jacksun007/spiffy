@@ -1,0 +1,8 @@
+../f2fs/f2fs_super.h
+../f2fs/f2fs_nat.h
+../f2fs/f2fs_sit.h
+../f2fs/f2fs_cp.h
+../f2fs/f2fs_data.h
+../f2fs/f2fs_inode.h
+../f2fs/f2fs_ssa.h
+../f2fs/f2fs_def.h

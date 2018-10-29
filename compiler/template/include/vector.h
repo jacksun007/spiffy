@@ -1,0 +1,12 @@
+@[ if obj.element.type == "bitmap" ]
+    @[ include "vector/bitmap.h" with context ]
+@[ elif obj.element.type == "data" ]
+    @[ include "vector/data.h" with context ]
+@[ elif obj.is_extent() ]
+    @[ include "vector/extent.h" with context ]
+@[ elif obj.element.is_integral() ]
+    @[ include "vector/intarray.h" with context ]
+@[ else ]
+    @[ include "vector/container.h" with context ]
+@[ endif ]
+

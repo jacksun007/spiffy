@@ -1,0 +1,8 @@
+depend.mk
+mktestfs
+cktestfs
+testfs
+*.img
+output.txt
+script.txt
+

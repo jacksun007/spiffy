@@ -1,0 +1,12 @@
+@[ if obj.element.type == "data" ]
+    @[ include "vector/data.cc" with context ]
+@[ elif obj.element.type == "bitmap" ]
+    @[ include "vector/bitmap.cc" with context ]
+@[ elif obj.is_extent() ]
+    @[ include "vector/extent.cc" with context ]
+@[ elif obj.element.is_integral() ]
+    @[ include "vector/intarray.cc" with context ]
+@[ else ]
+    @[ include "vector/container.cc" with context ]
+@[ endif ]
+
